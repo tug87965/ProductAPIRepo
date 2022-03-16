@@ -1,0 +1,20 @@
+.slideShow {
+    text-align: center;
+    font-weight: bold;
+}
+
+.slideShow img {
+    width: 25%;
+    border: 2px;
+    border-radius: 6px;
+}
+
+.slideshow .caption {
+    padding-bottom: 1ex;
+}
+
+.slideShow button {
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

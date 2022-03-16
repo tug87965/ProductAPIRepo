@@ -1,0 +1,10 @@
+/* May need to delete this later on I am not focusing on my css at the moment just making sure my javascript works great */
+
+user{
+    font-size: 1rem;
+    color: red;
+    border-style: solid;
+    text-align: left;
+    width: 30%;
+    float: left;
+}

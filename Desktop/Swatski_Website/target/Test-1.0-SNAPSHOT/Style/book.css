@@ -1,0 +1,18 @@
+/* Work on styling after we can get the input working correctly 
+    Need to adjust the sizes of the boxes and everything to make it actually work inside of it
+    Also get rid of a lot of the colors*/
+
+.book{
+    font-size: 2rem;
+    color: red;
+    border-style: solid;
+    text-align: left;
+    width: 30%;
+    float: left;
+    
+}
+
+.book img{
+    
+}
+

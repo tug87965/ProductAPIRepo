@@ -1,0 +1,99 @@
+
+#horizontal{
+    display: inline;
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/2796640.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#titleNav {  
+    display:flex; 
+    flex-direction: column;
+    /* fixed to top */
+    position: fixed;
+    top: 0;
+    width: 93%;
+    left: 2rem;
+    /*background-color: #777777;*/
+    }
+
+
+#title {
+    font-size: 3rem;
+    font-weight: bold;
+    white-space: nowrap;  /* don't allow the title to wrap */
+    width: 93%;
+    }
+    
+
+#nav{
+    white-space: nowrap;  /* don't allow nav links to wrap */
+    text-align: right;
+    font-weight: bold;
+    color: black;
+    }
+    
+    /* Controls the injected content on the page */
+#content{
+    font-size: 1rem;
+    margin: 4rem;
+    float: left;
+    position: relative;
+
+}
+
+
+/*This is used for the footer at the bottom right */
+/* This will need to be adjusted later on to fit go down if the page size shrinks */
+div.fixedRight{
+    /*background-color: #CB3D3D;*/
+    position: fixed;
+    color: black;
+    padding: 1rem;
+    text-align: right; 
+    bottom: 0;
+    right: 2rem;
+
+}
+
+    
+    
+    /* This is not for the desktop, it is for mobile view */
+    @media only screen and (min-width: 60rem) { 
+
+   
+
+        #titleNav {
+            /* flex attributes */
+            flex-direction: row;
+            justify-content: space-between; /* flex attribute will push title left and nav right, with "space between" */
+        }
+        
+        #nav {
+            white-space: nowrap;  /* don't allow nav links to wrap */
+            text-align: center;
+            font-weight: bold;
+            
+    
+            }
+            
+        fixedRight{
+            /*background-color: #CB3D3D;*/
+            position: relative;
+            color: black;
+            padding: 2rem;
+            text-align: right; 
+            bottom: 0;
+            right: 3rem;
+
+        }
+        
+        #content{
+            font-size: 1rem;
+            margin: 4rem;
+        }
+        
+    }

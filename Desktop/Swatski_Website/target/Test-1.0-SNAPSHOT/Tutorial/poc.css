@@ -1,0 +1,29 @@
+/*
+    Adjust comments and everything else later
+
+    Center everything else later on and make it pretty
+*/
+
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/2796640.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#content {
+    font-size: 1rem;
+    margin: 4rem;
+    position: relative;
+    justify-content: center;
+    
+}
+
+
+#title {
+    font-weight: bold;
+    white-space: nowrap;  /* don't allow the title to wrap */
+    width: 93%;
+    text-align: center;
+    
+    }

@@ -1,0 +1,36 @@
+/*
+    Adjust comments and everything else later
+
+    Center everything else later on and make it pretty
+*/
+p{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/2796640.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+div{
+    margin: 2rem;
+    text-align: center;
+}
+
+#title {
+    font-weight: bold;
+    white-space: nowrap;  /* don't allow the title to wrap */
+    text-align: center;
+    
+    }

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    
+
+<!-- Some of the information about each section is in the external css file in this project !-->
+<html>
+    
+    <head>
+        <title>The Buying Bad Books Website</title> <!--- This is my title !--->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" , initial-scale=1.0>
+        
+         <!-- This is my external style sheet. Has info for alot of things --> 
+        <link rel="stylesheet" href="Style/main.css">
+        <link rel="stylesheet" href="Style/emp.css">
+        <link rel="stylesheet" href="Style/book.css">
+        <link rel="stylesheet" href="Style/NavRouter.css">
+        <link rel="stylesheet" href="Style/dropdown.css">
+        <link rel="stylesheet" href="Style/slideShow.css">
+    </head>
+
+    
+    <!-- Focus on the image later !-->
+    
+    <body>
+        <!-- Everything is done inside here!-->
+        <!-- This div id might be wrong check it out later !-->
+        <div id="container" >
+            <div id ="titleNav">
+                <div id="title">
+                    Buying Bad Books
+                </div>
+                
+                
+                <div id="nav">     
+                    </div>
+                    
+                    
+            </div>
+                
+        </div>
+            
+            <div id ="content"> 
+                <script src ="js/reusable/MakeEmp.js"></script>
+                <script src ="js/reusable/MakeBook.js"></script>
+                <script src = "js/reusable/empContent.js"></script>
+                <script src = "js/reusable/toggle_better.js"></script>
+                <script src = "js/reusable/drop.js"></script>
+                <script src ="js/reusable/NavRouter.js"></script>
+                <script src ="js/reusable/MakeSlideShow.js"></script>
+                <script src ="js/reusable/SortableTableUtils.js"></script>
+                <script src ="js/reusable/ajax.js"></script>
+                <script src ="js/reusable/MakeTableBetter.js"></script>
+                          
+                <script src = "js/content/about.js"></script>
+                <script src = "js/content/home.js"></script>
+                <script src = "js/content/search.js"></script>
+                <script src = "js/content/blog.js"></script>
+                <script src = "js/content/ObjPage.js"></script>
+                <script src = "js/content/slideShowContent.js"></script>
+                <script src = "js/content/JSONAndAJAXPage.js"></script>
+                <script src = "js/content/other.js"></script>
+                
+            </div>
+                
+            
+        <!-- This actual makes the nav router bar so it can be pulled from the list !-->
+       
+         <script>
+
+           "use strict";
+            // Making a simple nav bar with just two links: Home | Blog
+ 
+            var myNavList = [
+
+                // property linkText is what shows up for the user as linked text in the Nav Bar.
+                // property linkURL is what shows up in the browser's address bar when they click that link. 
+                // property action is the function to be run when the NavRouter sees that link has been clicked. 
+                // -- it's the actual function, not function name, don't use quotes around homeContent). 
+                
+                // Rewrite this later so it properly confirms to evertyghin they are looking for
+                {linkText: "home", linkURL: "#home", action: home},
+                {linkText: "about ", linkURL: "#about", action: about},
+                {header: "search",
+                    subMenu : [
+                        {linkText: "ObjPage ", linkURL: "#ObjPage" , action: ObjPage},
+                        {linkText: "search ", linkURL: "#search", action: search},
+                        {linkText: "JSONAndAJAXPage ", linkURL: "#JSONAndAJAXPage" , action: JSONAndAJAXPage},
+                        {linkText: "other ", linkURL: "#other" , action: other}
+                    ]             
+                },
+                {header: "blog",
+                    subMenu : [
+                        {linkText: "blog ", linkURL: "#blog", action: blog},
+                        {linkText: "slideshow" , linkURL: '#slideShowContent' , action: slideShowContent}
+                    ]
+                    
+                },
+                
+                {header: "Tutorial",
+                    subMenu : [
+                        {linkText: "Proof Of Concept ", linkURL: "#poc", action:"Tutorial/poc.html"},
+                        {linkText: "Proposal pdf ", linkURL: "#tutProposal", action:"Tutorial/proposal.pdf"},
+                        {linkText: "Demo Page" , linkURL: "#Demo" , action: "Tutorial/Demo/demo.html"},
+                        {linkText: "Tutorial Home", linkURL: "#TutorialHome" , action: "Tutorial/Demo/index.html"}
+                        <!--- Put other things here --->
+                       
+                    ]
+                    
+                }
+                
+            ];
+
+            var myNav = MakeNavRouter({
+                navId: "nav", // this is where the nav bar will be injected
+                navList: myNavList, // the list of link objects (linkText, linkURL, actions)
+                contentId: "content", // the id where content is to be injected
+                startLink: "#home"     // routing will set this as the first link. 
+            });
+
+        </script>
+        
+    </body>
+    
+    
+    
+    
+    <footer id="footer">
+        <div class="fixedRight">
+            <p> <strong>A work by Daniel Swatski </strong></p><!-- comment -->
+            <p> <a href="mailto:tug87965@temple.com?Subject=Lab1%20Website" target="_top"> Email Me:</a> </p>
+        </div>
+        
+    </footer>
+    
+</html>

@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>\Proof of Concept </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="poc.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- comment -->
+        
+        
+    </head>
+    
+    <body>
+        <script src ="commentForWebmaster.js"></script>
+        <script src ="displaySocial.js"></script>
+        
+        <div id="title">
+           <h1> Proof of Concept Page </h1>
+        
+            <h3>Sign Up for a Bad Books Mailing List </h3>
+        </div>
+        
+        
+          
+            <script>
+                
+               //document.body.appendChild(poc());  
+                var ele = document.createElement("div");
+               
+                var login = document.createElement("h2");
+                login.innerHTML += "<h2> Login Here </h2>";
+                ele.appendChild(login);
+                
+                ele.innerHTML += "Email ";
+                var email = document.createElement("input");
+                email.setAttribute("type", "text");
+                ele.appendChild(email);
+                
+                var submit = document.createElement("button");
+                submit.innerHTML = " Submit ";
+                ele.appendChild(submit);
+
+                var clear = document.createElement("button");
+                clear.innerHTML = " Clear ";
+                ele.appendChild(clear);
+                
+                //var notesForTester = document.createElement("p");
+                //notesForTester.innerHTML = "If you hit submit, it will submit the info and open up the comment page and social sites. If you hit clear, it clears everything.";
+                //ele.appendChild(notesForTester);
+
+                var social = document.createElement("div");
+                var comments = document.createElement("div");
+                
+                submit.onclick = function(){
+                    email.value;
+                    
+                    social = displaySocial(social);
+                    comments = commentForWebmaster(comments);
+                };
+
+                // See if you can get the clear function working properly
+                clear.onclick = function(){
+                     email.value= "";
+                };
+
+                ele.appendChild(social);
+                ele.appendChild(comments);
+                    
+                document.body.appendChild(ele);
+
+                  
+                
+                
+                
+                
+                
+    
+            </script>
+            
+        
+        
+        
+        
+    </body>
+    
+</html>

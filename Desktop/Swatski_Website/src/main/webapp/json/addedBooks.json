@@ -1,0 +1,84 @@
+
+
+[
+    {
+        "name" : "Save the Pearls",
+        "img" : "https://upload.wikimedia.org/wikipedia/en/e/ef/Save-the-pearls-revealing-eden-book-cover.jpg",
+        "author": "Victoria Foyt",
+        "rating": 0,
+        "published year": 2012  
+    },
+    
+    {
+        "name" : "List of the Lost",
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/List_of_the_Lost.jpg/150px-List_of_the_Lost.jpg",
+        "author": "Morrissey",
+        "rating": 1,
+        "published year": 2015  
+    },
+    
+    {
+        "name" : "Bob Honey Who Just Do Stuff",
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Bob_Honey_Who_Just_Do_Stuff.jpg/220px-Bob_Honey_Who_Just_Do_Stuff.jpg",
+        "author": "Sean Penn",
+        "rating": -1,
+        "published year": 2018  
+    },
+    
+    {
+        "name" : "The Lair of the White Worm",
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Lair_of_white_worm_1st_ed_cover.jpg/220px-Lair_of_white_worm_1st_ed_cover.jpg",
+        "author": "Bram Stoker",
+        "rating": 2,
+        "published year": 1911  
+    },
+    
+    {
+        "name" : "Bob Honey Who Just Do Stuff",
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Bob_Honey_Who_Just_Do_Stuff.jpg/220px-Bob_Honey_Who_Just_Do_Stuff.jpg",
+        "author": "Sean Penn",
+        "rating": -1,
+        "published year": 2018  
+    },
+    
+    {
+        "name" : "Bob Honey Who Just Do Stuff",
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Bob_Honey_Who_Just_Do_Stuff.jpg/220px-Bob_Honey_Who_Just_Do_Stuff.jpg",
+        "author": "Sean Penn",
+        "rating": -1,
+        "published year": 2018  
+    },
+    
+    {
+        "name" : "Bob Honey Who Just Do Stuff",
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Bob_Honey_Who_Just_Do_Stuff.jpg/220px-Bob_Honey_Who_Just_Do_Stuff.jpg",
+        "author": "Sean Penn",
+        "rating": -1,
+        "published year": 2018  
+    },
+    
+    {
+        "name" : "Bob Honey Who Just Do Stuff",
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Bob_Honey_Who_Just_Do_Stuff.jpg/220px-Bob_Honey_Who_Just_Do_Stuff.jpg",
+        "author": "Sean Penn",
+        "rating": -1,
+        "published year": 2018  
+    },
+    
+    {
+        "name" : "Bob Honey Who Just Do Stuff",
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Bob_Honey_Who_Just_Do_Stuff.jpg/220px-Bob_Honey_Who_Just_Do_Stuff.jpg",
+        "author": "Sean Penn",
+        "rating": -1,
+        "published year": 2018  
+    },
+    
+    {
+        "name" : "Bob Honey Who Just Do Stuff",
+        "img" : "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Bob_Honey_Who_Just_Do_Stuff.jpg/220px-Bob_Honey_Who_Just_Do_Stuff.jpg",
+        "author": "Sean Penn",
+        "rating": -1,
+        "published year": 2018  
+    }
+
+]
